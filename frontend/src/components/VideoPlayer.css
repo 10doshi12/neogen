@@ -1,0 +1,25 @@
+.video-player-wrapper {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: var(--radius-lg);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.3);
+}
+
+.video-player {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: calc(var(--radius-lg) - 2px);
+  background: #000;
+}
+
+.video-player:focus {
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .video-player-wrapper {
+    max-width: 100%;
+  }
+}
